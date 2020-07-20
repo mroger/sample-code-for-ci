@@ -19,7 +19,7 @@ public class PersonRepositoryTest {
 	@Autowired
 	PersonRepository repository;
 	
-	@Test
+	/*@Test
 	public void addOkTest() {
 		repository.add(new Person(null, "X", "X", new Date(), Gender.MALE));
 	}
@@ -44,6 +44,6 @@ public class PersonRepositoryTest {
 	public void findByIdFailedTest() {
 		Person p = repository.findById(100);
 		Assert.assertNull(p);
-	}
+	}*/
 	
 }
