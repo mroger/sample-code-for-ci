@@ -7,8 +7,6 @@ import pl.piomin.sonar.model.User;
 import java.util.HashSet;
 import java.util.Set;
 
-import static org.junit.Assert.*;
-
 public class UserRepositoryTest {
 
     private UserRepository userRepository;
