@@ -11,7 +11,7 @@ public class UserRepositoryTest {
 
     private UserRepository userRepository;
 
-    /*@Before
+    @Before
     public void setUp() {
         Set<User> users = new HashSet<>();
         userRepository = new UserRepository();
@@ -21,5 +21,5 @@ public class UserRepositoryTest {
     @Test
     public void findByIdShouldReturnNull() {
         userRepository.findById(1000);
-    }*/
+    }
 }
