@@ -28,7 +28,7 @@ public class PersonControllerTest {
 		Assert.assertTrue(p.size() > 0);
 	}
 	
-	/*@Test
+	@Test
 	public void testFindById() throws AuthenticationException, EntityNotFoundException {
 		Person p = controller.findById(1, "YWRtaW46YWRtaW4=");
 		Assert.assertNotNull(p);
@@ -60,6 +60,6 @@ public class PersonControllerTest {
 	@Test
 	public void testRemove() throws AuthenticationException {
 		controller.remove(new Person(2, null, null, null, null), "YWRtaW46YWRtaW4=");
-	}*/
+	}
 	
 }
