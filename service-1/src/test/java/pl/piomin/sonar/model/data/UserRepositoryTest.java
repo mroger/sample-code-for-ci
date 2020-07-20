@@ -9,7 +9,7 @@ import java.util.Set;
 
 public class UserRepositoryTest {
 
-    private UserRepository userRepository;
+    /*private UserRepository userRepository;
 
     @Before
     public void setUp() {
@@ -21,5 +21,5 @@ public class UserRepositoryTest {
     @Test
     public void findByIdShouldReturnNull() {
         userRepository.findById(1000);
-    }
+    }*/
 }
